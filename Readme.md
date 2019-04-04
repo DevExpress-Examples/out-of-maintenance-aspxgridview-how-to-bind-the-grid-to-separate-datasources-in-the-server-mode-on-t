@@ -4,7 +4,7 @@
 * [MsSqlWithCte.cs](./CS/WebSite/App_Code/MsSqlWithCte.cs) (VB: [MsSqlWithCte.vb](./VB/WebSite/App_Code/MsSqlWithCte.vb))
 * [XPOHelper.cs](./CS/WebSite/App_Code/XPOHelper.cs) (VB: [XPOHelper.vb](./VB/WebSite/App_Code/XPOHelper.vb))
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to bind the grid to separate datasources in the server mode on the fly
 
