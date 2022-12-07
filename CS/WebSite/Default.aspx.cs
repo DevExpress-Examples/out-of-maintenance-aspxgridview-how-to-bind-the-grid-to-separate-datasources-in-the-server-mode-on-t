@@ -40,7 +40,7 @@ public partial class _Default : System.Web.UI.Page
     private void BindToDS2() {
         BindGrid("SELECT * FROM [TABLE]", "DATABASE2_NAME");
     }
-    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs e) {
+    protected void ASPxGridView1_CustomCallback(object sender, DevExpress.Web.ASPxGridViewCustomCallbackEventArgs e) {
         if (e.Parameters == "1") {
             Session["currentSource"] = "Datasource1";
             BindToDS1();

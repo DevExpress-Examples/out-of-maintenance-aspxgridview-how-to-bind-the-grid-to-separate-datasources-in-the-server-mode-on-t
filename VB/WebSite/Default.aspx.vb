@@ -38,7 +38,7 @@ Partial Public Class _Default
 	Private Sub BindToDS2()
 		BindGrid("SELECT * FROM [TABLE]", "DATABASE2_NAME")
 	End Sub
-	Protected Sub ASPxGridView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs)
+	Protected Sub ASPxGridView1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewCustomCallbackEventArgs)
 		If e.Parameters = "1" Then
 			Session("currentSource") = "Datasource1"
 			BindToDS1()
